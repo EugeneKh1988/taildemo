@@ -634,6 +634,26 @@ video {
   margin-top: 1.75rem;
 }
 
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -680,6 +700,10 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .items-center {
@@ -770,6 +794,16 @@ video {
   background-color: rgb(255 87 113 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#3a51df\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(58 81 223 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#fdb400\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 180 0 / var(--tw-bg-opacity));
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -784,6 +818,22 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-\[20px\] {
@@ -829,6 +879,10 @@ video {
   padding-right: 1.25rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .align-middle {
   vertical-align: middle;
 }
@@ -872,6 +926,10 @@ video {
 
 .text-\[18px\] {
   font-size: 18px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -928,6 +986,26 @@ video {
   color: rgb(101 112 142 / var(--tw-text-opacity));
 }
 
+.text-\[\#4352c8\] {
+  --tw-text-opacity: 1;
+  color: rgb(67 82 200 / var(--tw-text-opacity));
+}
+
+.text-\[\#000250\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 2 80 / var(--tw-text-opacity));
+}
+
+.text-\[\#65738e\] {
+  --tw-text-opacity: 1;
+  color: rgb(101 115 142 / var(--tw-text-opacity));
+}
+
+.text-\[\#060746\] {
+  --tw-text-opacity: 1;
+  color: rgb(6 7 70 / var(--tw-text-opacity));
+}
+
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -941,6 +1019,18 @@ video {
   .sm\:inline-block {
     display: inline-block;
   }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 768px) {
@@ -950,6 +1040,18 @@ video {
 
   .md\:inline-block {
     display: inline-block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 }
 
