@@ -17,25 +17,30 @@
         </div>
         Besnik.
       </div>
-      <ul class="hidden lg:inline-block text-[28px] text-[#707a8c]">
-        <li class="inline py-[25px] lg:mr-[10px]"><a href="#">Home</a></li>
-        <li class="inline py-[25px] lg:mr-[10px]"><a href="#">Offers</a></li>
-        <li class="inline py-[25px] lg:mr-[10px]"><a href="#">Company</a></li>
-        <li class="inline py-[25px] lg:mr-[10px]"><a href="#">Services</a></li>
+      <ul class="hidden lg:inline-block text-[28px] text-[#707a8c] space-x-2">
+        <li class="inline py-[25px]"><a href="#">Home</a></li>
+        <li class="inline py-[25px]"><a href="#">Offers</a></li>
+        <li class="inline py-[25px]"><a href="#">Company</a></li>
+        <li class="inline py-[25px]"><a href="#">Services</a></li>
         <li class="inline py-[25px]">Contact</li>
       </ul>
       <div>
-        <a href="" class="py-[25px] mr-[10px] text-[28px] text-[#707a8c]">Sign in</a>
-        <button class="bg-[#3a50e3] text-white rounded-[8px] text-[28px] px-[20px] py-[10px]">Get started</button>
+        <i class="fa-solid fa-arrow-right-to-bracket text-[28px] text-[#707a8c] sm:hidden mr-[10px]"></i>
+        <a href="" class="py-[25px] mr-[10px] text-[28px] text-[#707a8c] hidden sm:inline">Sign in</a>
+        <i class="fa-solid fa-circle-info text-[#3a50e3] text-[28px] sm:hidden"></i>
+        <button class="bg-[#3a50e3] text-white rounded-[8px] text-[28px] px-[20px] py-[10px] hidden sm:inline">Get
+          started</button>
       </div>
     </div>
   </div>
   <!--hero-->
-  <section class="container mx-auto lg:flex justify-between lg:flex-1 mt-[60px]">
-    <div class="lg:w-[60%] lg:mt-[60px]">
-      <p class="text-[#020155] text-[80px] font-bold leading-[87px]">Profesional marketing copy for anyone</p>
-      <div class="mt-10 flex">
-        <div class="pr-5">
+  <section class="container mx-auto lg:flex lg:justify-between lg:flex-1 mt-[60px]">
+    <div class="lg:mt-[60px]">
+      <p class="text-[#020155] text-[80px] font-bold leading-[87px] text-center sm:text-left px-2 sm:px-0">
+        Profesional marketing copy for anyone
+      </p>
+      <div class="mt-10 sm:flex px-2 sm:px-0 flex-grow">
+        <div class="pr-0 sm:pr-5">
           <div class="flex items-center mb-10">
             <div class="mr-5">
               <div class="rounded-full bg-[#fdb300] p-5">
@@ -47,7 +52,7 @@
               for forward-thinking organizations
             </p>
           </div>
-          <div class="flex items-center">
+          <div class="flex items-center flex-wrap">
             <button class="bg-[#3a50e3] text-white rounded-[8px] text-[28px] px-[25px] py-[10px] mr-5">Learn
               more</button>
             <div class="mr-5">
@@ -58,7 +63,7 @@
             <p class="text-[28px] text-[#707a8c]">How it works</p>
           </div>
         </div>
-        <div class="ml-15 bg-[#ff5771] p-8 rounded-[20px] min-w-[225px]">
+        <div class="sm:ml-15 bg-[#ff5771] py-8 px-12 rounded-[20px] max-w-[225px] mt-3 sm:mt-0">
           <p class="text-white text-[28px]">2M+</p>
           <p class="text-white text-[18px] pb-6">Trusted users</p>
           <p class="text-white text-[28px]">95%</p>
@@ -66,7 +71,7 @@
         </div>
       </div>
     </div>
-    <div class="lg:w-[40%] mt-7 lg:mt-0">
+    <div class="mt-7 lg:mt-0">
       <div>
         <img src="./img/f.png" alt="Image" class="width-full h-auto">
       </div>
@@ -81,9 +86,9 @@
     </p>
   </section>
   <!--blocks-->
-  <section class="container md:flex mx-auto md:justify-between md:items-center mb-[40px]">
-    <div class="mr-10">
-      <div class="grow rounded-[10px] bg-white p-[20px]">
+  <section class="container lg:flex mx-auto lg:justify-between lg:items-center mb-[40px] px-3 lg:px-0">
+    <div class="mx-0 lg:mr-10 mt-3 lg:mt-0">
+      <div class="rounded-[10px] bg-white p-[20px]">
         <div class="mb-[20px] flex">
           <div class="p-6 bg-[#3a51df]">
             <i class="fa-solid fa-podcast text-white text-[50px]"></i>
@@ -95,7 +100,7 @@
         </p>
       </div>
     </div>
-    <div class="mr-10">
+    <div class="mx-0 lg:mr-10 mt-3 lg:mt-0">
       <div class="grow rounded-[10px] bg-white p-[20px]">
         <div class="mb-[20px] flex">
           <div class="p-6 bg-[#ff5771]">
@@ -108,7 +113,7 @@
         </p>
       </div>
     </div>
-    <div class="mr-10">
+    <div class="mx-0 lg:mr-10 mt-3 lg:mt-0">
       <div class="grow rounded-[10px] bg-white p-[20px]">
         <div class="mb-[20px] flex">
           <div class="p-6 bg-[#fdb400]">
@@ -388,20 +393,83 @@
     <div class="text-center">
       <h1 class="text-[42px] text-[#4352c8] mt-[80px] mb-[50px] font-bold">Happy clients about us</h1>
     </div>
-    <div class="lg:flex lg:flex-1 lg:justify-between px-3">
-      <div class="bg-white rounded-[10px] p-4">
+    <div class="lg:flex lg:flex-1 lg:justify-between px-3 mb-9">
+      <div class="bg-white rounded-[10px] p-4 lg:max-w-[30%]">
         <div class="flex flex-grow flex-shrink items-center">
-          <div class="mr-3">
+          <div class="mr-3 max-w-[80px]">
             <img src="./img/photo6.png" alt="Photo">
           </div>
           <div>
             <p class="text-[#4352c8] text-[28px]">Dany Monson</p>
             <p class="text-[#979da7] text-[20px]">CEO & Founder</p>
           </div>
+          <div class="flex justify-end ml-3 flex-grow">
+            <i class="fa-brands fa-twitter text-[28px] text-[#06aaf2] block"></i>
+          </div>
+        </div>
+        <p class="text-[20px] text-[#979da7] mt-6">
+          It's very easy to communicate with Besnik and I love the way
+          they adapt to my pace to work. We start with discovery call
+          to understand.
+        </p>
+      </div>
+      <div class="bg-white rounded-[10px] p-4 lg:max-w-[30%] mt-3 lg:mt-0">
+        <div class="flex flex-grow flex-shrink items-center">
+          <div class="mr-3 max-w-[80px]">
+            <img src="./img/photo6.png" alt="Photo">
+          </div>
+          <div>
+            <p class="text-[#4352c8] text-[28px]">Dany Monson</p>
+            <p class="text-[#979da7] text-[20px]">CEO & Founder</p>
+          </div>
+          <div class="flex justify-end ml-3 flex-grow">
+            <i class="fa-brands fa-twitter text-[28px] text-[#06aaf2] block"></i>
+          </div>
+        </div>
+        <p class="text-[20px] text-[#979da7] mt-6">
+          It's very easy to communicate with Besnik and I love the way
+          they adapt to my pace to work. We start with discovery call
+          to understand.
+        </p>
+      </div>
+      <div class="bg-white rounded-[10px] p-4 lg:max-w-[30%] mt-3 lg:mt-0">
+        <div class="flex flex-grow flex-shrink items-center">
+          <div class="mr-3 max-w-[80px]">
+            <img src="./img/photo6.png" alt="Photo">
+          </div>
+          <div>
+            <p class="text-[#4352c8] text-[28px]">Dany Monson</p>
+            <p class="text-[#979da7] text-[20px]">CEO & Founder</p>
+          </div>
+          <div class="flex justify-end ml-3 flex-grow">
+            <i class="fa-brands fa-twitter text-[28px] text-[#06aaf2] block"></i>
+          </div>
+        </div>
+        <p class="text-[20px] text-[#979da7] mt-6">
+          It's very easy to communicate with Besnik and I love the way
+          they adapt to my pace to work. We start with discovery call
+          to understand.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--email subscribe-->
+  <section class="container mx-auto bg-[#ebeefd] rounded-[10px] px-[60px] py-4 flex justify-center">
+    <div class="text-center max-w-[800px]">
+      <p class="text-[50px] text-[#020059] mb-4">Sign up for new Besnik content, update, surveys & offers.</p>
+      <div class="flex justify-center items-center mb-4">
+        <div class="p-[25px] pr-3 bg-white">
+          <i class="fa-solid fa-envelope text-[#67718c] text-[30px]"></i>
+        </div>
+        <div class="flex text-[30px] bg-white px-3 py-3 items-center">
+          <input type="text" class="block outline-none pr-4" placeholder="Enter your email here">
+          <button class="bg-[#3b50df] text-white text-[28px] rounded-[10px] px-4 py-2">Subscribe</button>
         </div>
       </div>
     </div>
   </section>
+  <!--footer-->
+  <section class="container"></section>
 </body>
 
 </html>
